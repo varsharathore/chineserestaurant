@@ -1,20 +1,47 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Kaushan+Script&family=Lobster+Two&family=Niconne&family=Rock+Salt&display=swap');
+
+body {
     background-color: #dd1c1a;
     margin: 0;
     padding: 0;
 }
-#header-nav{
+.container{
+    margin: 0;
+    padding: 0;
+}
+#header-nav {
     margin: 0;
     padding: 0;
     background-color: #f0c808;
     border-radius: 0;
     border: 0;
 }
-#logo-image{
+
+#logo-image {
     background: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Panda_Express_logo.svg/1200px-Panda_Express_logo.svg.png");
     width: 150px;
     background-repeat: no-repeat;
     background-size: contain;
     height: 150px;
-    margin: 10px 15px 10px 0;
+    margin: 10px 0 10px 0;
+    display: inline-block;
+}
+
+.navbar-brand {
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+.navbar-brand a h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 120%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(16, 88, 20);
+    text-shadow: 1px 1px 1px #222;
+    line-height: .75;
+}
+
+.navbar-brand a{
+    text-decoration: none;
 }
