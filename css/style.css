@@ -1,0 +1,20 @@
+body{
+    background-color: #dd1c1a;
+    margin: 0;
+    padding: 0;
+}
+#header-nav{
+    margin: 0;
+    padding: 0;
+    background-color: #f0c808;
+    border-radius: 0;
+    border: 0;
+}
+#logo-image{
+    background: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Panda_Express_logo.svg/1200px-Panda_Express_logo.svg.png");
+    width: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
