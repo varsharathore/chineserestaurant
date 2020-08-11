@@ -5,10 +5,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.container{
-    margin: 0;
-    padding: 0;
-}
+
 #header-nav {
     margin: 0;
     padding: 0;
@@ -41,7 +38,21 @@ body {
     text-shadow: 1px 1px 1px #222;
     line-height: .75;
 }
-
+.navbar{
+    background-color: #f0c808;
+}
 .navbar-brand a{
     text-decoration: none;
+}
+
+.navbar-toggler{
+    color: red;
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    font-family: '', cursive;
+    color: rgb(119, 12, 12);
+    text-align: center;
 }
