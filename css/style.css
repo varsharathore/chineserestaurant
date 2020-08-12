@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Kaushan+Script&family=Lobster+Two&family=Niconne&family=Rock+Salt&display=swap");
 
 body {
@@ -87,40 +86,51 @@ body {
   text-align: right;
   padding-bottom: 0;
 }
-
+.jumbotron img {
+  width: 95%;
+}
+.jumbotron {
+  background-image: url("../img/josh-wilburne-hPeGDIGHnoI-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  box-shadow: 0 0 50px #3f0c1f;
+}
 @media (min-width: 1200px) {
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   #logo-image {
-    background: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Panda_Express_logo.svg/1200px-Panda_Express_logo.svg.png");
-    width: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100px;
-    margin: 5px 0 5px 0;
+    width: 110px;
+    height: 110px;
   }
 
   .navbar-brand a h1 {
-    font-family: "Rock Salt", cursive;
     font-size: 0.9em;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #019031;
-    text-shadow: 1px 1px 1px #222;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    #logo-image {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar-brand a h1 {
+    font-size: 0.8em;
+  }
   #logo-image {
-    background: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Panda_Express_logo.svg/1200px-Panda_Express_logo.svg.png");
-    width: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100px;
-    margin: 5px 0 5px 0;
+    width: 80px;
+    height: 80px;
   }
 }
 
-@media (min-width: 767px) {
+@media (max-width: 575px) {
+    .navbar-brand a h1 {
+        font-size: 0.9em;
+        padding-bottom: 15px;
+      }
 }
