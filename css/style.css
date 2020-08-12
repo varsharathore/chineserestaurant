@@ -1,77 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Kaushan+Script&family=Lobster+Two&family=Niconne&family=Rock+Salt&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Kaushan+Script&family=Lobster+Two&family=Niconne&family=Rock+Salt&display=swap");
 
 body {
-    background-color: #dd1c1a;
-    margin: 0;
-    padding: 0;
+  background-color: #dd1c1a;
+  margin: 0;
+  padding: 0;
 }
 
 #header-nav {
-    margin: 0;
-    padding: 0;
-    background-color: #f0c808;
-    border-radius: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #f0c808;
+  border-radius: 0;
+  border: 0;
 }
 
 #logo-image {
-    background: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Panda_Express_logo.svg/1200px-Panda_Express_logo.svg.png");
-    width: 150px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 150px;
-    margin: 10px 0 10px 0;
-    display: inline-block;
+  background: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Panda_Express_logo.svg/1200px-Panda_Express_logo.svg.png");
+  width: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  margin: 10px 0 10px 0;
+  display: inline-block;
 }
 
 .navbar-brand {
-    padding-top: 50px;
-    padding-left: 15px;
+  padding-top: 50px;
+  padding-left: 15px;
 }
 
 .navbar-brand a h1 {
-    font-family: 'Rock Salt', cursive;
-    font-size: 120%;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: rgb(16, 88, 20);
-    text-shadow: 1px 1px 1px #222;
-    line-height: .75;
-}
-.navbar{
-    background-color: #f0c808;
-}
-.navbar-brand a{
-    text-decoration: none;
+  font-family: "Rock Salt", cursive;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #019031;
+  text-shadow: 1px 1px 1px #222;
+  line-height: 0.75;
 }
 
-.navbar-toggler{
-    color: red;
+.navbar {
+  background-color: #f0c808;
 }
-#nav-list{
-    margin-top: 10px;
+
+.navbar-brand a {
+  text-decoration: none;
 }
-#nav-list a{
-    font-family: 'Kaushan Script', cursive;
+
+.navbar-toggler {
+  color: red;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  font-family: "Kaushan Script", cursive;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e71c23;
+  text-align: center;
+}
+#nav-list a:hover {
+  background-color: white;
+  border-radius: 20px;
+}
+#nav-list a span {
+  font-size: 1.2em;
+}
+
+#nav-list li div {
+  font-family: "Kaushan Script", cursive;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #019031;
+  text-align: right;
+}
+
+#phone {
+  margin-top: 5px;
+}
+
+#phone a {
+  text-align: right;
+  padding-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #logo-image {
+    background: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Panda_Express_logo.svg/1200px-Panda_Express_logo.svg.png");
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    margin: 5px 0 5px 0;
+  }
+
+  .navbar-brand a h1 {
+    font-family: "Rock Salt", cursive;
+    font-size: 0.9em;
     text-transform: uppercase;
-    font-weight: 900;
-    color: rgb(119, 12, 12);
-    text-align: center;
+    font-weight: bold;
+    color: #019031;
+    text-shadow: 1px 1px 1px #222;
+  }
 }
-#nav-list a span{
-    font-size: 1.2em;
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #logo-image {
+    background: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Panda_Express_logo.svg/1200px-Panda_Express_logo.svg.png");
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    margin: 5px 0 5px 0;
+  }
 }
-#nav-list li div{
-    font-family: 'Kaushan Script', cursive;
-    text-transform: uppercase;
-    font-weight: 900;
-    color: rgb(10, 70, 20);
-    text-align: right;
-}
-#phone{
-    margin-top: 5px;
-}
-#phone a{
-    text-align: right;
-    padding-bottom: 0;
+
+@media (min-width: 767px) {
 }
