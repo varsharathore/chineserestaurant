@@ -1,69 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Panda Express Chinese Kitchen</title>
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Panda_Express_logo.svg/1200px-Panda_Express_logo.svg.png"
+      type="image/x-icon"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="index.html" class="float-left d-none d-md-block">
-                        <div id="logo-image"></div>
-                    </a>
+      <nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="index.html" class="float-left d-none d-md-block">
+              <div id="logo-image"></div>
+            </a>
 
-                    <div class="navbar-brand">
-                        <a href="index.html">
-                            <h1>Panda Express Chinese Kitchen</h1>
-                        </a>
-                    </div>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul id="nav-list" class="navbar-nav navbar-right ">
-                        <li class="nav-item">
-                            <a class="nav-link" href="menu.html"><span><i class="fa fa-cutlery" aria-hidden="true"></i></span><br class="d-none d-sm-block">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="menu.html"><span><i class="fas fa-info-circle    "></i></span><br class="d-none d-sm-block">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="menu.html"><span><i class="fas fa-phone    "></i></span><br class="d-none d-sm-block">Contact</a>
-                        </li>   
-                        <li id="phone" class="d-none d-md-block d-lg-block">
-                            <a href="tel:410-602-5008">
-                                <span>410-602-5008</span>
-                            </a>
-                            <div>We Deliver</div>
-                        </li>             
-                    </ul>
-                </div>
+            <div class="navbar-brand">
+              <a href="index.html">
+                <h1>Panda Express Chinese Kitchen</h1>
+              </a>
             </div>
-        </nav>
+          </div>
+          <button
+            class="navbar-toggler float-sm-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul id="nav-list" class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="menu.html"
+                  ><span><i class="fa fa-cutlery" aria-hidden="true"></i></span
+                  ><br class="d-none d-sm-block" />Menu</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html"
+                  ><span><i class="fas fa-info-circle"></i></span
+                  ><br class="d-none d-sm-block" />About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html"
+                  ><span><i class="fas fa-phone"></i></span
+                  ><br class="d-none d-sm-block" />Contact</a
+                >
+              </li>
+              <li id="phone" class="d-none d-lg-block">
+                <a href="tel:410-602-5008">
+                  <span>410-602-5008</span>
+                </a>
+                <div>We Deliver</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
+    <div id="main-content" class="container">
+      <div class="jumbotron">
+        <!-- <img src="https://www.we-heart.com/upload-images/fookyew2.jpg" alt="Restaurant Interior"> -->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
-</body>
+      </div>
+    </div>
 
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
