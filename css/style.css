@@ -17,10 +17,10 @@ body {
 
 #logo-image {
   background: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Panda_Express_logo.svg/1200px-Panda_Express_logo.svg.png");
-  width: 150px;
+  width: 140px;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 150px;
+  height: 140px;
   margin: 10px 0 10px 0;
   display: inline-block;
 }
@@ -88,7 +88,21 @@ body {
   text-align: right;
   padding-bottom: 0;
 }
-
+#call-btn > a {
+  font-size: 1.5em;
+  display: block;
+  margin: 0 20px;
+  padding: 10px;
+  border: 2px solid #fff;
+  background-color: #f6b319;
+  color: #951c49;
+}
+#xs-deliver {
+  margin-top: 5px;
+  font-size: .7em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
 .jumbotron {
   background-image: url("../img/josh-wilburne-hPeGDIGHnoI-unsplash.jpg");
   background-size: cover;
@@ -144,6 +158,47 @@ body {
   text-transform: uppercase;
   font-family: 'Rowdies', cursive;
 }
+
+.panel-footer {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  opacity: 0.8;
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  border-top: 0;
+}
+
+.panel-footer div.row{
+  margin: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#ffffff;
+  height: 1px;
+}
+
 @media (min-width: 1200px) {
 }
 
@@ -176,14 +231,34 @@ body {
 }
 
 @media (min-width: 432px) and (max-width: 575px) {
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
   .navbar-brand a h1 {
     font-size: 0.9em;
     padding-bottom: 15px;
   }
 }
 @media (max-width: 431px) {
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
   .navbar-brand a h1 {
-    font-size: 3.5vw;
+    font-size: 3vw;
     padding-bottom: 15px;
   }
   .jumbotron{
