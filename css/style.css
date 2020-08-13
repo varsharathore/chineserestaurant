@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Kaushan+Script&family=Lobster+Two&family=Niconne&family=Rock+Salt&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
 
 body {
   background-color: #dd1c1a;
@@ -52,6 +53,7 @@ body {
 }
 
 #nav-list {
+  padding-left: 10%;
   margin-top: 10px;
 }
 
@@ -86,9 +88,7 @@ body {
   text-align: right;
   padding-bottom: 0;
 }
-.jumbotron img {
-  width: 95%;
-}
+
 .jumbotron {
   background-image: url("../img/josh-wilburne-hPeGDIGHnoI-unsplash.jpg");
   background-size: cover;
@@ -96,8 +96,55 @@ body {
   height: 500px;
   box-shadow: 0 0 50px #3f0c1f;
 }
-@media (min-width: 1200px) {
 
+#menu-tile,
+#special-tile,
+#map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: solid 2px maroon;
+  overflow: hidden;
+}
+
+#menu-tile:hover,
+#special-tile:hover,
+#map-tile:hover {
+  box-shadow: 0 1px 5px 1px #beb4b4;
+}
+
+#menu-tile{
+  background: url("../img/pexels-t-n-g-u-y-e-n-🍁-2664216.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+#special-tile{
+  background: url("../img/pexels-abby-kihano-218769.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#menu-tile span,
+#special-tile span,
+#map-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+  text-transform: uppercase;
+  font-family: 'Rowdies', cursive;
+}
+@media (min-width: 1200px) {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -112,10 +159,10 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    #logo-image {
-        width: 100px;
-        height: 100px;
-    }
+  #logo-image {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -128,9 +175,15 @@ body {
   }
 }
 
-@media (max-width: 575px) {
-    .navbar-brand a h1 {
-        font-size: 0.9em;
-        padding-bottom: 15px;
-      }
+@media (min-width: 432px) and (max-width: 575px) {
+  .navbar-brand a h1 {
+    font-size: 0.9em;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 431px) {
+  .navbar-brand a h1 {
+    font-size: 0.5em;
+    padding-bottom: 15px;
+  }
 }
