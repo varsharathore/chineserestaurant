@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Kaushan+Script&family=Lobster+Two&family=Niconne&family=Rock+Salt&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
 
+
 body {
   background-color: #dd1c1a;
   margin: 0;
@@ -64,10 +65,12 @@ body {
   color: #e71c23;
   text-align: center;
 }
+
 #nav-list a:hover {
   background-color: white;
   border-radius: 20px;
 }
+
 #nav-list a span {
   font-size: 1.2em;
 }
@@ -88,7 +91,8 @@ body {
   text-align: right;
   padding-bottom: 0;
 }
-#call-btn > a {
+
+#call-btn>a {
   font-size: 1.5em;
   display: block;
   margin: 0 20px;
@@ -97,12 +101,14 @@ body {
   background-color: #f6b319;
   color: #951c49;
 }
+
 #xs-deliver {
   margin-top: 5px;
   font-size: .7em;
   letter-spacing: .1em;
   text-transform: uppercase;
 }
+
 .jumbotron {
   background-image: url("../img/josh-wilburne-hPeGDIGHnoI-unsplash.jpg");
   background-size: cover;
@@ -128,7 +134,7 @@ body {
   box-shadow: 0 1px 5px 1px #beb4b4;
 }
 
-#menu-tile{
+#menu-tile {
   background: url("../img/pexels-t-n-g-u-y-e-n-🍁-2664216.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -136,7 +142,7 @@ body {
 
 }
 
-#special-tile{
+#special-tile {
   background: url("../img/pexels-abby-kihano-218769.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,7 +151,7 @@ body {
 
 #menu-tile span,
 #special-tile span,
-#map-tile span{
+#map-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -162,7 +168,6 @@ body {
 .panel-footer {
   background-color: black;
   color: white;
-  font-weight: 700;
   opacity: 0.8;
   margin-top: 30px;
   padding-top: 35px;
@@ -170,37 +175,74 @@ body {
   border-top: 0;
 }
 
-.panel-footer div.row{
+.panel-footer div.row {
   margin: 35px;
 }
-#hours, #address {
+
+#hours,
+#address {
   line-height: 2;
 }
-#hours > span, #address > span {
+
+#hours>span,
+#address>span {
   font-size: 1.3em;
 }
+
 #address p {
   color: #557c3e;
   font-size: .8em;
   line-height: 1.8;
 }
+
 #testimonials {
   font-style: italic;
 }
+
 #testimonials p:nth-child(2) {
   margin-top: 25px;
 }
+
 hr {
   border: 0;
-  clear:both;
-  display:block;
-  width: 96%;               
-  background-color:#ffffff;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: #ffffff;
   height: 1px;
 }
 
-@media (min-width: 1200px) {
+.category-tile {
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
 }
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title+div {
+  margin-bottom: 50px;
+}
+
+@media (min-width: 1200px) {}
 
 @media (min-width: 992px) and (max-width: 1199px) {
   #logo-image {
@@ -210,6 +252,14 @@ hr {
 
   .navbar-brand a h1 {
     font-size: 0.9em;
+  }
+  .category-tile {
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
   }
 }
 
@@ -224,6 +274,7 @@ hr {
   .navbar-brand a h1 {
     font-size: 0.8em;
   }
+
   #logo-image {
     width: 80px;
     height: 80px;
@@ -235,33 +286,51 @@ hr {
     margin-bottom: 30px;
     text-align: center;
   }
+
   .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
+    margin-bottom: 0;
+    /* margin already exists on the whole row */
   }
+
   .panel-footer section hr {
     width: 50%;
   }
+
   .navbar-brand a h1 {
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding-bottom: 15px;
   }
 }
-@media (max-width: 431px) {
+
+@media (max-width: 430px) {
   .panel-footer section {
     margin-bottom: 30px;
     text-align: center;
   }
+
   .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
+    margin-bottom: 0;
+    /* margin already exists on the whole row */
   }
+
   .panel-footer section hr {
     width: 50%;
   }
+
   .navbar-brand a h1 {
     font-size: 3vw;
     padding-bottom: 15px;
   }
-  .jumbotron{
-    height: 300px;    
+
+  .jumbotron {
+    height: 300px;
+  }
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
   }
 }
