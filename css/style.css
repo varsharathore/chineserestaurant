@@ -233,7 +233,10 @@ hr {
   color: #fff;
   opacity: .8;
 }
-
+.active{
+  background-color: white;
+  border-radius: 20px;
+}
 .category-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
